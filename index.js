@@ -1,1 +1,2 @@
-console.log('test');
+/* eslint-disable */
+import './src/main.jsx';
