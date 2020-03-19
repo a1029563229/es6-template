@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 class App extends React.PureComponent {
   render() {
     return (
-      <section>App</section>
+      <section>
+        Hello Next!
+      </section>
     );
   }
 }

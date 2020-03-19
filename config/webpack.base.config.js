@@ -6,7 +6,8 @@ module.exports = {
   entry: path.join(__dirname, '..', './index.js'),
   output: {
     path: path.join(__dirname, '..', 'dist'),
-    filename: 'webpack.bundle[hash].js',
+    // filename: 'webpack.bundle[hash].js',
+    filename: 'webpack.bundle.js',
   },
   resolve: {
     alias: {
